@@ -1,0 +1,166 @@
+<!doctype html>
+<head>
+<title>Sun Jingyi</title>
+<link rel="stylesheet" href="../../css/pstyle.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Dosis|Economica" rel="stylesheet"> -->
+<script src="../../js/script.js"> </script>
+</head>
+
+<body>
+	<div class="sidebar">
+		<div class="name_logo">
+			<a href="../../index.html">Sun Jingyi</a>
+		</div>
+
+		<nav>
+			<span class="no_drop" id = "ip">Interactive Projects</span>
+				<ul class="hidden_1">
+					<li><a href="../ip/illuminated.html" class=""> - An Illuminated History</a></li>
+					<li><a href="../ip/anti.html" class=""> - Anti Social Anonymous</a></li>
+					<li><a href="../ip/goodtime.html" class=""> - For a Good Time, Text...</a></li>
+					<li><a href="../ip/fireflies.html" class=""> - Fireflies</a></li>
+					<li><a href="../ip/pyramid.html" class=""> - Light Pyramid</a></li>
+					<li><a href="../ip/rube.html" class=""> - Rube Goldberg Machine</a></li>
+					<li><a href="../ip/switch.html" class=""> - Switching On the Universe</a></li>
+					<li><a href="../ip/peculiar.html" class=""> - Book of Peculiar Stories</a></li>
+					<li><a href="../ip/bisbald.html" class=""> - Bis Bald, Fahrrad #2</a></li>
+					<li><a href="../ip/bubbles.html" class=""> - Bubbles!</a></li>
+				</ul>
+
+			<span class="no_drop highlight" id = "ph">Photography</span>
+				<ul class="selected_2">
+					<li><a href="2018shang.html" class=""> - 2018</a></li>
+					<li> - <a href="2017shang.html" class="">2017S/<a href="2017xia.html" class="">2017X</li>
+					<li> - <a href="2016shang.html" class="">2016S/<a href="2016xia.html" class="">2016X</li>
+					<li><a href="2015.html" class=""> - 2015</a></li>
+					<li><a href="2014.html" class=""> - 2014</a></li>
+				</ul>
+
+			<span class="no_drop" id = "ad">Art & Design</span>
+				<ul class="hidden_3">
+					<li><a href="../ad/88shanghai.html" class=""> - 88 Shanghai</a></li>
+					<li><a href="../ad/printmaking.html" class=""> - Printmaking</a></li>
+					<li><a href="../ad/workshop.html" class=""> - Workshop Posters</a></li>
+					<li><a href="../ad/miscellaneous.html" class=""> - Miscellaneous</a></li>
+				</ul>
+			<span class="no_drop"><a href = "../cv.html">Resume</a></span>
+		</nav>
+	</div>
+
+	<div class="content">
+		<div class = "arrows">
+			<span id = "left_arrow"  onclick="moveLeft()"> < L </span>
+			<span id = "right_arrow" onclick="moveRight()"> R > </span>
+		</div>
+
+		<div id="content_wrap">
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/hangzhou_1.jpg"  alt="hangzhou_1" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/hangzhou_2.jpg"  alt="hangzhou_2" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/hangzhou_4.jpg"  alt="hangzhou_4" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/hangzhou_5.jpg"  alt="hangzhou_5" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/hangzhou_6.jpg"  alt="hangzhou_6" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/hangzhou_3.jpg"  alt="hangzhou_3" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/qinghai_1.jpg"  alt="qinghai_1" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/qinghai_2.jpg"  alt="qinghai_2" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/qinghai_3.jpg"  alt="qinghai_3" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/qinghai_4.jpg"  alt="qinghai_4" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/qinghai_5.jpg"  alt="qinghai_5" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/tibet_1.jpg"  alt="tibet_1" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/tibet_2.jpg"  alt="tibet_2" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/tibet_3.jpg"  alt="tibet_3" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/tibet_4.jpg"  alt="tibet_4" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/tibet_5.jpg"  alt="tibet_5" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/tibet_6.jpg"  alt="tibet_6" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_1.jpg"  alt="ny_1" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/ny_2.jpg"  alt="ny_2" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_3.jpg"  alt="ny_3" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/ny_4.jpg"  alt="ny_4" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_5.jpg"  alt="ny_5" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/ny_6.jpg"  alt="ny_6" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_7.jpg"  alt="ny_7" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/ny_8.jpg"  alt="ny_8" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_9.jpg"  alt="ny_9" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/ny_10.jpg"  alt="ny_10" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_11.jpg"  alt="ny_11" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/ny_12.jpg"  alt="ny_12" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/ny_13.jpg"  alt="ny_13" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/cosmos_1.jpg"  alt="cosmos_1" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/cosmos_4.jpg"  alt="cosmos_4" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/cosmos_3.jpg"  alt="cosmos_3" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/whitney_1.jpg"  alt="whitney_1" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/whitney_2.jpg"  alt="whitney_2" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/whitney_3.jpg"  alt="whitney_3" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/rainroom_1.jpg"  alt="rainroom_1" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/rainroom_2.jpg"  alt="rainroom_2" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img" src="../../img/ph/2015/lacma_2.jpg"  alt="lacma_2" /></li>
+				<li><img class="ph_img" src="../../img/ph/2015/lacma_3.jpg"  alt="lacma_3" /></li>
+			</div>
+
+			<div class="item">
+				<li><img class="ph_img_2" src="../../img/ph/2015/lacma_1.jpg"  alt="lacma_1" /></li>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

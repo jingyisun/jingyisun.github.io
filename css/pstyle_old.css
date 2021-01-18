@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #298c43;
+    width: 5px;  
+    height: 5px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: #298c43;
+    border: 2px solid transparent;
+    background-clip: content-box;   /* THIS IS IMPORTANT */
+}
+
+::-webkit-scrollbar:vertical {
+    display:none;  
+}
+
+
+body{font-family:"Abel", Times, sans-serif;}
+
+a, a:active, a:visited { color: #000000; text-decoration:none}
+a:hover, span:hover { color: #298c43; }
+
+.sidebar{margin: 30px 0 0 30px;}
+
+.title a{
+    width:300px;
+    position:fixed; 
+    font-size: 21px;
+    position:fixed;
+}
+
+nav{
+    margin-top: 40px;
+    width: 200px;
+    position:fixed;
+}
+
+.nodropdown {
+    display:block;
+    padding-bottom: 6px;
+    color: #000000;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+    font-size:15px;
+}
+
+.hidden1, .hidden2 { display: none; }
+
+.selected1, .selected2{
+    display:block; 
+    margin:0;
+    padding:0;
+    padding-top: 3px;
+    padding-bottom:3px;
+}
+
+#ph, #ip{padding-bottom: 3px;margin-bottom:3px;}
+.highlight{border-bottom: 1px solid #000000;}
+
+.arrows{float:right;margin-right:10px;font-size: 21px;}
+#arrow-left:hover,#arrow-right:hover{color:#298c43;cursor:pointer;}
+
+.pwrap{
+   margin:0 10px 0 250px;
+   padding-top:39px;
+}
+
+.caption{float:right;}
+#resume_down{padding-left: 225px;}
+.txt-rotate{color:#298c43;}
+
+#box {
+    width: 100%;
+    max-height: 800px;
+    overflow: scroll;
+    direction:ltr;
+}
+
+#inner_box {
+    width: 15000px;
+    height: 100%;
+    z-index: 100;
+}
+
+#inner_box .item {
+    float: left;
+    height: 100%;
+}
+
+.item:last-child li .phimg,.item:last-child li .phimg2,.item:last-child li .ipimg,.item:last-child li .ipimg2{padding-right: 0px !important;}
+
+.adimg{height:612px;}
+
+.phimg, .phimg2, .ipimg, .ipimg2{
+    height:300px;
+    padding-bottom:8px;
+    padding-right:10px;
+}
+
+.phimg2,.ipimg2{height:612px;}
+#inner_words{padding-top:170px;margin-right:10px;}
+#inner_video{padding-top:200px;margin-right:10px;}
+
+.item li video{padding-top:20px;}
+#indexq{padding-left: 200px;}
+#indexq2{padding-left:500px;}
+#resume_image{width:600px;}

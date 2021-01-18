@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #298c43;
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: #298c43;
+    border: 2px solid transparent;
+    background-clip: content-box;   /* THIS IS IMPORTANT */
+}
+
+::-webkit-scrollbar:vertical {
+    display:none;
+}
+
+/* GENERIC */
+body{font-family:"Abel", Times, sans-serif;}
+a, a:active, a:visited { color: #000000; text-decoration:none}
+a:hover, span:hover { color: #298c43; }
+
+/* SIDEBAR */
+.sidebar{margin: 30px 0 0 30px;}
+
+.name_logo a{
+    width:200px;
+    position:fixed;
+    font-size: 21px;
+    position:fixed;
+}
+
+nav{
+    margin-top: 40px;
+    width: 200px;
+    position:fixed;
+}
+
+.no_drop{
+    display:block;
+    padding-bottom: 6px;
+    color: #000000;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+.hidden_1, .hidden_2, .hidden_3{ display: none; }
+.highlight{border-bottom: 1px solid #000000;}
+
+.selected_1, .selected_2, .selected_3{
+    display:block;
+    margin:0;
+    padding:0;
+    padding-top: 3px;
+    padding-bottom:3px;
+}
+
+/*CONTENT*/
+.content{margin:0 10px 0 250px;}
+#content_wrap{
+    padding-top:17px;
+    display: flex;
+    overflow-x: scroll;sss
+    min-height: 650px;
+}
+
+.item{margin-right: 5px;}
+.item:last-child li .ph_img,.item:last-child li .ph_img_2,.item:last-child li .ip_img,.item:last-child li .ip_img_2{padding-right: 0px !important;}
+
+li {list-style-type: none;font-size:15px;}
+
+#ph, #ip, #ad{padding-bottom: 3px;margin-bottom:3px;}
+.ad_img_3{height:180px;padding-bottom:6px;padding-right:10px;padding-left:10px;}
+.ph_img,.ip_img,.ad_img{height:300px;}
+.ph_img_2,.ip_img_2, .ad_img_2{height:612px;}
+.ph_img, .ph_img_2, .ip_img, .ip_img_2, .ad_img, .ad_img_2{padding-bottom:8px;padding-right:10px;}
+
+#content_words{padding-top:170px;margin-right:10px;min-width: 422px;}
+#content_video{padding-top:200px;margin-right:10px;}
+.item li video{padding-top:20px;}
+
+/*ARROWS*/
+.arrows{margin-right:10px;font-size: 21px;}
+#left_arrow:hover,#right_arrow:hover{color:#298c43;cursor:pointer;}
+
+
+/* CV */
+.cv_section{margin-bottom: 10px;}
+.cv_section p:nth-child(n+3){text-indent:15px;}
+.cv_head{
+    display:inline-block;
+    margin-right:20px;
+    border-bottom: 1px solid #000000;
+    font-size: 25px
+}
+
+.cv_item{min-width:700px;}
+
+/* INDEX */
+#index_content_wrap{padding-top:32px;}
+.ind_img{max-height: 200px;padding-top: 8px;}
